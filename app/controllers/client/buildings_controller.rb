@@ -18,7 +18,7 @@ class Client::BuildingsController < ApplicationController
                     )
   
 
-    redirect_to "/client/buildings/#{@building['id']}"
+    redirect_to "/client/buildings/#{@building.id}"
   end
 
   def show

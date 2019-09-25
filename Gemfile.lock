@@ -62,6 +62,7 @@ GEM
     bootsnap (1.4.5)
       msgpack (~> 1.0)
     builder (3.2.3)
+    building_rocksolid (0.1.0)
     byebug (11.0.1)
     concurrent-ruby (1.1.5)
     crass (1.0.4)
@@ -168,6 +169,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap (>= 1.4.2)
+  building_rocksolid (~> 0.1.0)
   byebug
   http
   listen (>= 3.0.5, < 3.2)
